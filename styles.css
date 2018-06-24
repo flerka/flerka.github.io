@@ -1,0 +1,98 @@
+body {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 14px;
+}
+
+a {
+    color:#00e;
+}
+
+p {
+    margin-top: 0.2rem;
+    margin-bottom: 0.2rem;
+}
+
+h1 {
+    font-size: 28px;
+    font-weight: 500;
+    margin-bottom: 0.4rem;
+    margin-top: 0.4rem;
+}
+
+h2 {
+    font-size: 22px;
+    font-weight: 500;
+    margin-bottom: 0.4rem;
+    margin-top: 0.4rem;
+}
+
+h3 {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 0.3rem;
+    margin-top: 0.3rem;
+}
+
+.block {
+    margin-top: 20px;
+}
+
+.container {
+    width: 800px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.info {
+    margin-top: 10px;
+}
+.info span {
+    margin-right: 15px;
+    line-height: 20px;
+}
+
+.block-header {
+    border-bottom: 1px #000 solid;
+    margin-bottom: 5px;
+}
+
+ul {
+    padding-left: 8px;
+    margin-top: 0.2rem;
+    margin-bottom: 0.2rem;
+}
+
+ul.dashed {
+    list-style-type: none;
+}
+
+ul.dashed > li {
+    text-indent: -5px;
+    line-height: 18px;
+}
+
+ul.dashed > li:before {
+    content: "- ";
+    text-indent: -5px;
+}
+
+.block-content {
+    width: 600px;
+}
+
+.work-item-title {
+    font-weight: 600;
+    margin-bottom: 3px;
+}
+
+.work-item-dates {
+    margin-bottom: 5px;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.work-item{
+    margin-bottom: 25px;
+}
